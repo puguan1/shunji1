@@ -97,11 +97,8 @@
 		param.type=getType();
 		param.content=getContent();
 		var submitUrl="/cgi-bin/save";
-		alert(1);
 		$.post(submitUrl,param,function(data){
-			if(data){
 				alert(data);
-			}
 		});
 		
 	};
