@@ -18,7 +18,7 @@
 		    width:980,
 		    height:500
 			 });
-		$('textarea').sceditor('instance').val('');
+		//$('textarea').sceditor('instance').val('');
 		initUpload();
 
 	};
